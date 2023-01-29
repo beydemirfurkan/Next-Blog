@@ -1,13 +1,17 @@
 import Header from './header'
+import { Container } from '@chakra-ui/react'
 
 const Layout = ( { children } ) => {
   return (
     <div>
-        <Header />
+      <Container maxW='container.md'>
+      <Header />
         <main>
             {children}
         </main>
         <footer><p>Test Footer</p></footer>
+      </Container>
+
     </div>
   )
 }

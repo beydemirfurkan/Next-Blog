@@ -1,5 +1,4 @@
 html {
-    background-color: azure;
     min-height: 100vh;
     margin: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,3 +9,4 @@ a {
     padding-right: 20px;
     font-weight: bold;
 }
+
