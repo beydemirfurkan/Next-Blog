@@ -1,4 +1,4 @@
-import Layout from '../coımponents/Layout'
+import Layout from '../components/Layout'
 
 const Home = () => {
   return (
